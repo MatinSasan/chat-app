@@ -6,12 +6,6 @@ export class MessageList extends Component {
   componentDidUpdate() {
     const node = ReactDOM.findDOMNode(this);
     node.scrollTop = node.scrollHeight;
-
-    // this.shouldScrollToBottom =
-    //   node.scrollTop + node.clientHeight + 100 >= node.scrollHeight;
-    // if (this.shouldScrollToBottom) {
-    //   node.scrollTop = node.scrollHeight;
-    // }
   }
 
   render() {
