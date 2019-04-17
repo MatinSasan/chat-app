@@ -25,7 +25,7 @@ class App extends Component {
   componentDidMount() {
     const chatManager = new Chatkit.ChatManager({
       instanceLocator, //sorry,hidden the keys, so the app can't work :(
-      userId: "Max",
+      userId: "Guest",
       tokenProvider: new Chatkit.TokenProvider({
         url: tokenUrl //hidden the keys too, so the app can't work
       })
